@@ -52,6 +52,7 @@ PRODUCT_COPY_FILES += \
     vendor/ulefone/k11ta_a/proprietary/etc/firmware/dsp_1_ulwctg_n.bin:system/etc/firmware/dsp_1_ulwctg_n.bin \
     vendor/ulefone/k11ta_a/proprietary/etc/firmware/em_filter_1_ulwctg_n.bin:system/etc/firmware/em_filter_1_ulwctg_n.bin \
     vendor/ulefone/k11ta_a/proprietary/etc/firmware/modem_1_ulwctg_n.img:system/etc/firmware/modem_1_ulwctg_n.img \
+    vendor/ulefone/k11ta_a/proprietary/bin/AcdApiDaemon:system/bin/AcdApiDaemon \
     vendor/ulefone/k11ta_a/proprietary/bin/akmd09911:system/bin/akmd09911 \
     vendor/ulefone/k11ta_a/proprietary/bin/akmd8963:system/bin/akmd8963 \
     vendor/ulefone/k11ta_a/proprietary/bin/akmd8975:system/bin/akmd8975 \
@@ -250,6 +251,7 @@ PRODUCT_COPY_FILES += \
     vendor/ulefone/k11ta_a/proprietary/lib64/libFpEts.so:system/lib64/libFpEts.so \
     vendor/ulefone/k11ta_a/proprietary/lib64/libFPEtsJni.so:system/lib64/libFPEtsJni.so \
     vendor/ulefone/k11ta_a/proprietary/lib64/hw/fingerprint.mt6755.so:system/lib64/hw/fingerprint.mt6755.so \
+    vendor/ulefone/k11ta_a/proprietary/bin/spm_loader:system/bin/spm_loader \
     vendor/ulefone/k11ta_a/proprietary/lib/libaudio_param_parser.so:system/lib/libaudio_param_parser.so \
     vendor/ulefone/k11ta_a/proprietary/lib64/libaudio_param_parser.so:system/lib64/libaudio_param_parser.so \
     vendor/ulefone/k11ta_a/proprietary/lib/libaudiocompensationfilter.so:system/lib/libaudiocompensationfilter.so \
@@ -385,6 +387,13 @@ PRODUCT_COPY_FILES += \
     vendor/ulefone/k11ta_a/proprietary/etc/audio_param/VolumeGainMap_ParamUnitDesc.xml:system/etc/audio_param/VolumeGainMap_ParamUnitDesc.xml \
     vendor/ulefone/k11ta_a/proprietary/etc/audio_param/Volume_AudioParam.xml:system/etc/audio_param/Volume_AudioParam.xml \
     vendor/ulefone/k11ta_a/proprietary/etc/audio_param/Volume_ParamUnitDesc.xml:system/etc/audio_param/Volume_ParamUnitDesc.xml \
+    vendor/ulefone/k11ta_a/proprietary/etc/firmware/pcm_deepidle.bin:system/etc/firmware/pcm_deepidle.bin \
+    vendor/ulefone/k11ta_a/proprietary/etc/firmware/pcm_deepidle_by_mp1.bin:system/etc/firmware/pcm_deepidle_by_mp1.bin \
+    vendor/ulefone/k11ta_a/proprietary/etc/firmware/pcm_mcdi_ddrdfs.bin:system/etc/firmware/pcm_mcdi_ddrdfs.bin \
+    vendor/ulefone/k11ta_a/proprietary/etc/firmware/pcm_sodi_ddrdfs.bin:system/etc/firmware/pcm_sodi_ddrdfs.bin \
+    vendor/ulefone/k11ta_a/proprietary/etc/firmware/pcm_sodi_ddrdfs_by_mp1.bin:system/etc/firmware/pcm_sodi_ddrdfs_by_mp1.bin \
+    vendor/ulefone/k11ta_a/proprietary/etc/firmware/pcm_suspend.bin:system/etc/firmware/pcm_suspend.bin \
+    vendor/ulefone/k11ta_a/proprietary/etc/firmware/pcm_suspend_by_mp1.bin:system/etc/firmware/pcm_suspend_by_mp1.bin \
     vendor/ulefone/k11ta_a/proprietary/lib/hw/lights.mt6755.so:system/lib/hw/lights.mt6755.so \
     vendor/ulefone/k11ta_a/proprietary/lib64/hw/lights.mt6755.so:system/lib64/hw/lights.mt6755.so \
     vendor/ulefone/k11ta_a/proprietary/lib/hw/memtrack.mt6755.so:system/lib/hw/memtrack.mt6755.so \
