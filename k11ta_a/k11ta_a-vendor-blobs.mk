@@ -73,7 +73,11 @@ PRODUCT_COPY_FILES += \
     vendor/ulefone/k11ta_a/proprietary/bin/mtk_agpsd:system/bin/mtk_agpsd \
     vendor/ulefone/k11ta_a/proprietary/bin/slpd:system/bin/slpd \
     vendor/ulefone/k11ta_a/proprietary/bin/wifi2agps:system/bin/wifi2agps \
+    vendor/ulefone/k11ta_a/proprietary/lib/libDR.so:system/lib/libDR.so \
+    vendor/ulefone/k11ta_a/proprietary/lib/libfusion.so:system/lib/libfusion.so \
     vendor/ulefone/k11ta_a/proprietary/lib/libmnl.so:system/lib/libmnl.so \
+    vendor/ulefone/k11ta_a/proprietary/lib/libmpe.driver.so:system/lib/libmpe.driver.so \
+    vendor/ulefone/k11ta_a/proprietary/lib/libmpe.sensorlistener.so:system/lib/libmpe.sensorlistener.so \
     vendor/ulefone/k11ta_a/proprietary/lib/hw/gps.mt6755.so:system/lib/hw/gps.mt6755.so \
     vendor/ulefone/k11ta_a/proprietary/lib64/hw/gps.mt6755.so:system/lib64/hw/gps.mt6755.so \
     vendor/ulefone/k11ta_a/proprietary/xbin/MPED:system/xbin/MPED \
@@ -99,6 +103,9 @@ PRODUCT_COPY_FILES += \
     vendor/ulefone/k11ta_a/proprietary/lib64/libnvram_sec.so:system/lib64/libnvram_sec.so \
     vendor/ulefone/k11ta_a/proprietary/lib/libnvram.so:system/lib/libnvram.so \
     vendor/ulefone/k11ta_a/proprietary/lib64/libnvram.so:system/lib64/libnvram.so \
+    vendor/ulefone/k11ta_a/proprietary/bin/gas_srv:system/bin/gas_srv \
+    vendor/ulefone/k11ta_a/proprietary/bin/ged_srv:system/bin/ged_srv \
+    vendor/ulefone/k11ta_a/proprietary/bin/guiext-server:system/bin/guiext-server \
     vendor/ulefone/k11ta_a/proprietary/bin/pq:system/bin/pq \
     vendor/ulefone/k11ta_a/proprietary/lib/libblisrc32.so:system/lib/libblisrc32.so \
     vendor/ulefone/k11ta_a/proprietary/lib64/libblisrc32.so:system/lib64/libblisrc32.so \
