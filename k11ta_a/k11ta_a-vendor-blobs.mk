@@ -28,8 +28,6 @@ PRODUCT_COPY_FILES += \
     vendor/ulefone/k11ta_a/proprietary/bin/gsm0710muxd:system/bin/gsm0710muxd \
     vendor/ulefone/k11ta_a/proprietary/bin/gsm0710muxdmd2:system/bin/gsm0710muxdmd2 \
     vendor/ulefone/k11ta_a/proprietary/bin/md_ctrl:system/bin/md_ctrl \
-    vendor/ulefone/k11ta_a/proprietary/bin/mtkrild:system/bin/mtkrild \
-    vendor/ulefone/k11ta_a/proprietary/bin/mtkrildmd2:system/bin/mtkrildmd2 \
     vendor/ulefone/k11ta_a/proprietary/bin/muxreport:system/bin/muxreport \
     vendor/ulefone/k11ta_a/proprietary/bin/netdiag:system/bin/netdiag \
     vendor/ulefone/k11ta_a/proprietary/bin/terservice:system/bin/terservice \
@@ -39,15 +37,7 @@ PRODUCT_COPY_FILES += \
     vendor/ulefone/k11ta_a/proprietary/lib64/libccci_util.so:system/lib64/libccci_util.so \
     vendor/ulefone/k11ta_a/proprietary/lib/libmrdump.so:system/lib/libmrdump.so \
     vendor/ulefone/k11ta_a/proprietary/lib64/libmrdump.so:system/lib64/libmrdump.so \
-    vendor/ulefone/k11ta_a/proprietary/lib/librilmtk.so:system/lib/librilmtk.so \
-    vendor/ulefone/k11ta_a/proprietary/lib64/librilmtk.so:system/lib64/librilmtk.so \
-    vendor/ulefone/k11ta_a/proprietary/lib/librilmtkmd2.so:system/lib/librilmtkmd2.so \
-    vendor/ulefone/k11ta_a/proprietary/lib64/librilmtkmd2.so:system/lib64/librilmtkmd2.so \
     vendor/ulefone/k11ta_a/proprietary/lib64/libterservice.so:system/lib64/libterservice.so \
-    vendor/ulefone/k11ta_a/proprietary/lib/mtk-ril.so:system/lib/mtk-ril.so \
-    vendor/ulefone/k11ta_a/proprietary/lib64/mtk-ril.so:system/lib64/mtk-ril.so \
-    vendor/ulefone/k11ta_a/proprietary/lib/mtk-rilmd2.so:system/lib/mtk-rilmd2.so \
-    vendor/ulefone/k11ta_a/proprietary/lib64/mtk-rilmd2.so:system/lib64/mtk-rilmd2.so \
     vendor/ulefone/k11ta_a/proprietary/etc/ecc_list.xml:system/etc/ecc_list.xml \
     vendor/ulefone/k11ta_a/proprietary/etc/firmware/dsp_1_ulwctg_n.bin:system/etc/firmware/dsp_1_ulwctg_n.bin \
     vendor/ulefone/k11ta_a/proprietary/etc/firmware/em_filter_1_ulwctg_n.bin:system/etc/firmware/em_filter_1_ulwctg_n.bin \
@@ -284,12 +274,8 @@ PRODUCT_COPY_FILES += \
     vendor/ulefone/k11ta_a/proprietary/lib/libHEVCdec_sa.ca7.android.so:system/lib/libHEVCdec_sa.ca7.android.so \
     vendor/ulefone/k11ta_a/proprietary/lib/libm4u.so:system/lib/libm4u.so \
     vendor/ulefone/k11ta_a/proprietary/lib64/libm4u.so:system/lib64/libm4u.so \
-    vendor/ulefone/k11ta_a/proprietary/lib/libmal.so:system/lib/libmal.so \
-    vendor/ulefone/k11ta_a/proprietary/lib64/libmal.so:system/lib64/libmal.so \
     vendor/ulefone/k11ta_a/proprietary/lib/libmatv_cust.so:system/lib/libmatv_cust.so \
     vendor/ulefone/k11ta_a/proprietary/lib64/libmatv_cust.so:system/lib64/libmatv_cust.so \
-    vendor/ulefone/k11ta_a/proprietary/lib/libmdfx.so:system/lib/libmdfx.so \
-    vendor/ulefone/k11ta_a/proprietary/lib64/libmdfx.so:system/lib64/libmdfx.so \
     vendor/ulefone/k11ta_a/proprietary/lib/libmmprofile.so:system/lib/libmmprofile.so \
     vendor/ulefone/k11ta_a/proprietary/lib64/libmmprofile.so:system/lib64/libmmprofile.so \
     vendor/ulefone/k11ta_a/proprietary/lib/libmmsdkservice.so:system/lib/libmmsdkservice.so \
