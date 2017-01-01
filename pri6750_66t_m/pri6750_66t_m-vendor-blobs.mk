@@ -227,6 +227,14 @@ PRODUCT_COPY_FILES += \
     vendor/bluboo/pri6750_66t_m/proprietary/lib64/libfeatureio.so:system/lib64/libfeatureio.so \
     vendor/bluboo/pri6750_66t_m/proprietary/lib/libfile_op.so:system/lib/libfile_op.so \
     vendor/bluboo/pri6750_66t_m/proprietary/lib64/libfile_op.so:system/lib64/libfile_op.so \
+    vendor/bluboo/pri6750_66t_m/proprietary/lib/libgybeauty.so:system/lib/libgybeauty.so \
+    vendor/bluboo/pri6750_66t_m/proprietary/lib64/libgybeauty.so:system/lib64/libgybeauty.so \
+    vendor/bluboo/pri6750_66t_m/proprietary/lib/libgybeauty422.so:system/lib/libgybeauty422.so \
+    vendor/bluboo/pri6750_66t_m/proprietary/lib64/libgybeauty422.so:system/lib64/libgybeauty422.so \
+    vendor/bluboo/pri6750_66t_m/proprietary/lib/libgybeauty420.so:system/lib/libgybeauty420.so \
+    vendor/bluboo/pri6750_66t_m/proprietary/lib64/libgybeauty420.so:system/lib64/libgybeauty420.so \
+    vendor/bluboo/pri6750_66t_m/proprietary/lib/libhdrproc.so:system/lib/libhdrproc.so \
+    vendor/bluboo/pri6750_66t_m/proprietary/lib64/libhdrproc.so:system/lib64/libhdrproc.so \
     vendor/bluboo/pri6750_66t_m/proprietary/lib/libimageio_plat_drv.so:system/lib/libimageio_plat_drv.so \
     vendor/bluboo/pri6750_66t_m/proprietary/lib64/libimageio_plat_drv.so:system/lib64/libimageio_plat_drv.so \
     vendor/bluboo/pri6750_66t_m/proprietary/lib/libimageio.so:system/lib/libimageio.so \
@@ -251,6 +259,7 @@ PRODUCT_COPY_FILES += \
     vendor/bluboo/pri6750_66t_m/proprietary/lib64/hw/gxfingerprint.mt6750.so:system/lib64/hw/gxfingerprint.mt6750.so \
     vendor/bluboo/pri6750_66t_m/proprietary/lib64/fingerprint.default.so:system/lib64/fingerprint.default.so \
     vendor/bluboo/pri6750_66t_m/proprietary/lib64/gxfingerprint.default.so:system/lib64/gxfingerprint.default.so \
+    vendor/bluboo/pri6750_66t_m/proprietary/lib64/libalgoandroid.so:system/lib64/libalgoandroid.so \
     vendor/bluboo/pri6750_66t_m/proprietary/lib64/libfp_client.so:system/lib64/libfp_client.so \
     vendor/bluboo/pri6750_66t_m/proprietary/lib64/libfpservice.so:system/lib64/libfpservice.so \
     vendor/bluboo/pri6750_66t_m/proprietary/bin/spm_loader:system/bin/spm_loader \
