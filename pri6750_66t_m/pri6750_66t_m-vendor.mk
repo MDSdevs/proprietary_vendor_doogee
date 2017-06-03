@@ -20,4 +20,4 @@ PRODUCT_PACKAGES += \
 
 # Proprietary dependencies go here
 
-$(call inherit-product, vendor/bluboo/pri6750_66t_m/pri6750_66t_m-vendor-blobs.mk)
+$(call inherit-product, vendor/doogee/pri6750_66t_m/pri6750_66t_m-vendor-blobs.mk)
